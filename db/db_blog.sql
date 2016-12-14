@@ -1,8 +1,3 @@
---CREATE DATABASE if not EXISTS DB_BLOG;
-
-CREATE USER 'admin'@'localhost'
-  IDENTIFIED BY 'root' ;
-
 CREATE TABLE DB_BLOG.`articles` (
   `IDarticle` int(11) NOT NULL,
   `titreArticle` varchar(250) COLLATE utf8_bin NOT NULL,
